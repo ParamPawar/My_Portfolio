@@ -1,0 +1,356 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaquaries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Param Pawar</div>
+        <div>
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#publication">Publication</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>  
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Param Pawar</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu-links">
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+            <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="#publication" onclick="toggleMenu()">Publication</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+          <img src="assets/Ai_param_2.png" alt="Pawar Param profile picture">
+        </div> 
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Param Pawar</h1>
+            <p class="section__text__p2">B.tech Student in Computer Engineering at Parul University</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('assets/new/Param_Pawar.pdf')">
+                Download CV
+                </button>
+                <button class="btn btn-color-1" onclick="location.href ='./#contact'">
+                Contact Info
+                </button>
+            </div>
+            <div id="socials-container">
+                <img src="assets/linkedin.png" alt="My LinkedIn profile" class="icon" onclick="location.href = 'https://www.linkedin.com/in/param-pawar/'">
+                <img src="assets/github.png" alt="My GitHub profile" class="icon" onclick="location.href = 'https://github.com/ParamPawar'">
+                <img src="assets/instagram.png" alt="My Instagram profile" class="icon" onclick="location.href = 'https://www.instagram.com/param_pawar/'">
+                <img src="assets/youtube.png" alt="My Youtube profile" class="icon" onclick="location.href = 'https://www.youtube.com/channel/UC9J9Z9Q9Z9J9Z9J9Z9J9Z9Q'">
+                <img src="assets/twitter.png" alt="My Twitter profile" class="icon" onclick="location.href = 'https://twitter.com/param_pawar'">
+                <img src="assets/reddit.png" alt="My Reddit profile" class="icon" onclick="location.href = 'https://www.reddit.com/user/param_pawar'">
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="assets/Ai_param_1.png" alt="Profile Picture" class="about-pic">
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="assets/experience.png" alt="experience icon" class="icon">
+                        <h3>Experience</h3>
+                        <p>Backend Development Intern @<a href="https://www.linkedin.com/company/budget-wise/posts/?feedView=all" taget="_blank">Budgetwise </a><br>
+                            Ex-QA Intern @<a href="https://work.co" target="_blank">Work&amp;Co</a></p>
+                    </div>
+                    <div class="details-container">
+                        <img src="assets/education.png" alt="Education icon" class="icon">
+                        <h3>Education</h3>
+                        <p>B.Tech. in CE <br>Parul University </p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>Hi, I'm Param Pawar!
+                        A passionate full-stack developer specializing in crafting robust, user-friendly web and mobile solutions. I good in backend development, API integration, and designing intuitive interfaces that enhance user experiences. My Learning  lies in delivering seamless full-stack projects and versatile cross-platform apps. Let's build something amazing together!</p>
+                </div>
+            </div>
+        </div>
+        <img src="assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href = './#experience'">
+    </section>
+    <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Frontend Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>HTML</h3>
+                                <!-- <p>Experienced</p> -->
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>Tikinter</h3>
+                                <!-- <p>Experienced</p> -->
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>CSS</h3>
+                                <!-- <p>Experienced</p> -->
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>React</h3>
+                                <!-- <p>Experienced</p> -->
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>JavaScript</h3>
+                                <!-- <p>Experienced</p> -->
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>TypeScript</h3>
+                                <!-- <p>Basic</p> -->
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>Tailwind</h3>
+                                <!-- <p>Intermediate</p> -->
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Backtend Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>MySQL</h3>
+                                <!-- <p>Experienced</p> -->
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>Firebase</h3>
+                                <!-- <p>Experienced</p> -->
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>MongoDB</h3>
+                                <!-- <p>Basic</p> -->
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>Node JS</h3>
+                                <!-- <p>Experienced</p> -->
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>Express JS</h3>
+                                <!-- <p>Experienced</p> -->
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>RESTful API</h3>
+                                <!-- <p>Experienced</p> -->
+                            </div>
+                        </article>
+                        
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">DevOps</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>CI/CD</h3>
+                                <!-- <p>Experienced</p> -->
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>Git</h3>
+                                <!-- <p>Basic</p> -->
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>Jenkins</h3>
+                                <!-- <p>Experienced</p> -->
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>Docker</h3>
+                                <!-- <p>Experienced</p> -->
+                            </div>
+                        </article> 
+                        <article>
+                            <img src="assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>Automated Testing</h3>
+                                <!-- <p>Experienced</p> -->
+                            </div>
+                        </article> 
+                        <article>
+                            <img src="assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>QA</h3>
+                                <!-- <p>Experienced</p> -->
+                            </div>
+                        </article> 
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href = './#projects'">
+    </section>
+    <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+            <div class="details-container color-container">
+                <div class="article-container">
+                <img src="project-1.png" alt="Project 1" class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">AutoMail</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href = 'https://github.com/ParamPawar/AutoMail-Collage-Project'">
+                        GitHub
+                    </button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href = 'xxxxxxxxxx'">
+                        Live Demo(coming soon)
+                    </button>
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                <img src="project-2.png" alt="Project 2" class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">xxxxx xxxxxxx</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href = 'xxxxxxxxxx'">
+                        GitHub
+                    </button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href = 'xxxxxxxxxx'">
+                        Live Demo
+                    </button>
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                <img src="project-3.png" alt="Project 3" class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">Student Portal</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href = 'https://github.com/ParamPawar/Student_Portal'">
+                        GitHub
+                    </button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href = 'https://student-portal-liard.vercel.app/'">
+                        Live Demo
+                    </button>
+                </div>
+            </div>
+        </div>
+        </div>
+        <img src="assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href = './#publication'">
+    </section>
+    <section id="publication">
+        <p class="section__text__p1">Read My Recent</p>
+        <h1 class="title">Publication</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+            <div class="details-container color-container">
+                <div class="article-container">
+                <!-- <img src="project-1.png" 
+                alt="Project 1"
+                class="project-img"
+                /> -->
+                </div>
+                <h2 class="experience-sub-title project-title">Coming soon....</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2" onclick="window.open('xxxxxxxx')">
+                    Read Paper
+                    </button>
+                </div>
+            </div>
+            </div>
+            </div>
+        <img src="assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href = './#contact'">
+    </section>
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="assets/email.png" alt="Email icon" class="icon contact-icon email-icon">
+                <p><a href="mailto:parampawar418@gmail.com">parampawar418@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon">
+                <p><a href="https://www.linkedin.com/in/param-pawar/">LinkedIn</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#publication">Publication</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                  </ul>  
+
+            </div>
+        </nav>
+        <!-- <p>Copyright © 2024 Param Pawar. All Rights Reserved.</p> -->
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
